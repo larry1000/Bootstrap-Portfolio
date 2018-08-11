@@ -108,12 +108,7 @@ a:hover, a:active {
     width: 100%;
     height: auto;
 }
-.gallery {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-}
+
 .desc::after {
         content: "";
         clear: both;
@@ -314,29 +309,5 @@ textarea {
   color: #FFFFFF;
   border-top: 6px solid #b4b4b4;
 
-    /* position: relative;
-    height: 45px;
-    bottom: 10px;
-    line-height: 50px;
-    font-size: 75%;
-    width: 100%;
-    padding-top: 40px;
-    text-align: center;
-    background-color: #666666;
-    color: #FFFFFF;
-    border-top: 6px solid #b4b4b4; */
 }
-.footer2 {
-    position: relative;
-    height: 45px;
-    top: 0;
-    bottom: 0px;
-    line-height: 50px;
-    font-size: 75%;
-    width: 100%;
-    padding-top: 40px;
-    text-align: center;
-    background-color: #666666;
-    color: #FFFFFF;
-    border-top: 6px solid #b4b4b4;
-}
+
