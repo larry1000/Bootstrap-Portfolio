@@ -31,18 +31,13 @@ header {
 section {
     background: url('qbkls.png');
     position: relative;
-    height: 510px;
+    height: 550px;
     border-top: 2px solid #777777;
+    width: auto;
     
-        /* background: url('qbkls.png') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height:100%;
-     */
+        
 }
-.port {
+#port {
     background: url('qbkls.png');
     position: relative;
     height: 620px;
@@ -109,6 +104,10 @@ a:hover, a:active {
     width: 200px; 
     padding: 20px;
 }
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
 .gallery {
     position: absolute;
     left: 0px;
@@ -135,68 +134,76 @@ a:hover, a:active {
     border-color: #b4b4b4; 
     
 }
-.container2 {
+#container2 {
     position: relative;
     top: 30px;
-    margin: auto;
+    margin-left: 300px;
     background-color: #FFFFFF;
-    width: 600px;
-    height: 550px;
+    width: 800px;
+    height: 500px;
     border-style: solid;
     border-width: 1px;
     border-color: #b4b4b4;
     
 }
-.container3 {
+.card {
     position: relative;
-    top: 30px;
-    margin: auto;
-    background-color: #FFFFFF;
-    width: 600px;
-    height: 450px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #b4b4b4;
-    text-align: left;
-    padding-left: 20px;
+    width: 960px;
+    height: auto;
+    left: 250px;
+    top: 5px;
+
     
 }
-.sports {
+#exampleFormControlInput1 {
+    position: relative;
+    margin-left: 25px;
+    width: 900px;
+}
+#exampleFormControlInput2 {
+    position: relative;
+    margin-left: 25px;
+    width: 900px;
+}
+form label {
+    margin-left: 20px;
+}
+#sports {
     position: absolute;
-    top: 95px;
+    top: 75px;
     margin-left: 15px;
     width: 150px;
     height: 125px;
     z-index: 1;
 }
-.tech {
+#tech {
     position: absolute;
-    top: 265px;
-    margin-left: 400px;
+    top: 243px;
+    margin-left: -367px;
     width: 150px;
     height: 125px;
     z-index: 3;
 }
-.space {
+#space {
     position: absolute;
-    top: 410px;
-    margin-left: 400px;
+    top: -235px;
+    margin-left: 316px;
     width: 150px;
     height: 125px;
     z-index: 5;
 }
-.book {
+#book {
     position: absolute;
-    top: 270px;
-    margin-left: 620px;
+    top: 245px;
+    margin-left: -90px;
     width: 150px;
     height: 125px;
     z-index: 9;
 }
-.music {
+#music {
     position: absolute;
-    top: 125px;
-    margin-left: 620px;
+    top: 75px;
+    margin-left: 300px;
     width: 150px;
     height: 125px;
     z-index: 7;
@@ -204,7 +211,7 @@ a:hover, a:active {
 .desc {
     position: absolute;
     z-index: 2;
-    top: 175px;
+    top: 165px;
     vertical-align: middle;
     line-height: 30px;
     margin-left: 15px;
@@ -218,10 +225,10 @@ a:hover, a:active {
 .desc2 {
     position: absolute;
     z-index: 4;
-    top: 350px;
+    top: 330px;
     vertical-align: middle;
     line-height: 30px;
-    margin-left: 400px;
+    margin-left: -367px;
     background-color: #666666;
     text-align: center;
     vertical-align: middle;
@@ -232,10 +239,10 @@ a:hover, a:active {
 .desc3 {
     position: absolute;
     z-index: 6;
-    top: 500px;
+    top: 440px;
     vertical-align: middle;
     line-height: 30px;
-    margin-left: 400px;
+    margin-left: 15px;
     background-color: #666666;
     text-align: center;
     vertical-align: middle;
@@ -246,10 +253,10 @@ a:hover, a:active {
 .desc4 {
     position: absolute;
     z-index: 8;
-    top: 207px;
+    top: 190px;
     vertical-align: middle;
     line-height: 30px;
-    margin-left: 620px;
+    margin-left: -80px;
     background-color: #666666;
     text-align: center;
     vertical-align: middle;
@@ -260,10 +267,10 @@ a:hover, a:active {
 .desc5 {
     position: absolute;
     z-index: 10;
-    top: 350px;
+    top: -290px;
     vertical-align: middle;
     line-height: 30px;
-    margin-left: 620px;
+    margin-left: 600px;
     background-color: #666666;
     text-align: center;
     vertical-align: middle;

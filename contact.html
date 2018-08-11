@@ -13,41 +13,73 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-        <header>
-                <h1>Larry Lightner</h1>
-               <ul class="divider"> 
-                <li><a href="index.html">About</a></li>
-                <div class="vl"></div>
-                <li><a href="contact.html">Contact</a></li>
-                <div class="vl2"></div>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Portfolio</span>
+        </nav> 
+        <div class="row">
+                <div class="col-sm-6"><h1>Larry Lightner</h1></div>
+                <div class="col-sm-6">  
+                    <ul class="divider"> 
+                        <!-- <li><a href="index.html">About</a></li> -->
+                        <li><a href="index.html" class="badge badge-dark">About Me</a></li>
+                        <div class="vl"></div>
+                        <li><a href="contact.html" class="badge badge-dark">Contact</a></li>
+                        <!-- <li><a href="contact.html">Contact</a></li> -->
+                        <div class="vl2"></div>
+                        <li><a href="portfolio.html" class="badge badge-dark">Portfolio</a></li>
+                        <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+                        </ul>
+                    </div>
+              
+                        
+                </div>
+                    
+         
+        
+        
+        </div>
               </header> 
 
     <section class="port2">
 
-    <div class="container3">
+            <div class="card">
+            <div class="row">
 
+                    <div class="col-sm-12"></div>
         <h2>Contact</h2>
         <hr class="style">
+                </div>
+            <div class="row">
+                <div class="col-sm-12"></div>
 
-    
-            <br>Name:<br>
-            <input type="text" name="Name" class="inputs" value="John Smith">
-            <br>
-            <br>Email:<br>
-            <input type="text" name="Email" class="inputs" value="example@gmail.com">
-            <br><br>
-            <br>Message:<br>
-            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-            <br>
-            <input type="submit" class="button" value="Submit">
-    
+            <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Name:</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message:</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  
+            <button type="button" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
 </div>
 </section>
-    <footer>
-            <p>Copyright&copy;</p>
-        </footer>
+<div class="row">
+        <div class="col-sm-12"></div>
+      <div class="footer text-center">
+          <p>Copyright&copy;</p>
+      </div>
+  
+    </div>
 
 </body>
 </html>
